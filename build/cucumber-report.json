@@ -1,0 +1,8 @@
+Feature: Login Page Validation
+  As a CS Rep I want to Login into Customer Service Portal
+
+  Scenario: Login Success                             [90m# samplelogin.feature:4[0m
+    [33mGiven [0m[33mThe User is in the  login page[0m
+    [33mWhen [0m[33mThe User enters the valid email and password[0m
+    [33mAnd [0m[33mUser clicks on Login button[0m
+    [33mThen [0m[33mUser should be redirected to Home page[0m

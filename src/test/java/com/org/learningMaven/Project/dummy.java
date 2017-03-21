@@ -13,7 +13,7 @@ public class dummy {
 
 	public  WebDriver driver = null;
     {
-	   System.setProperty("webdriver.gecko.driver","D:\\webdriver\\geckodriver.exe");
+	  
 	    driver = new FirefoxDriver();
 	}
     
